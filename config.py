@@ -9,8 +9,8 @@ class Config(object):
     BLOB_STORAGE_KEY = os.environ.get('AZURE_STORAGE_KEY') or 'MejF65EWjR+6xq1X9H6nH37h2C9cc4RsYJfv0OphWkr7J2Wb+afH/kUqJqlPcMr8cEy4ZJA/W08NmR7D2z9XyA=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'shrey-article-cms'
 
-    SQL_SERVER = os.environ.get('SQL_SERVER') or 'shrey-article-cms'
-    SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'shrey-article-cms.database.windows.net'
+    SQL_SERVER = os.environ.get('SQL_SERVER') or 'shrey-article-cms.database.windows.net'
+    SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'shrey-article-cms'
     SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'shrey-article-cms'
     SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or 'Qwerty98765!'
     # Below URI may need some adjustments for driver version, based on your OS, if running locally
