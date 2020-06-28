@@ -17,7 +17,7 @@ handler = logging.StreamHandler(stream=sys.stdout)
 handler.setFormatter(logging.Formatter("[%(asctime)s] %(levelname)s in %(module)s: %(message)s"))
 app.logger.addHandler(handler)
 app.logger.setLevel(logging.INFO)
-app.logger.info('Microblog startup')
+app.logger.info('Shrey Udacity Article CMS')
 
 
 Session(app)
